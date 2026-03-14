@@ -35,7 +35,7 @@ public class JumpSearch {
 
             for(int j = start; j <= end; j++){
                 if(arr[j] == key){
-                    System.out.println("Element found at position : " + j);
+                    System.out.println("Element found at position : " + j+1);
                     f = 1;
                     break;
                 }
