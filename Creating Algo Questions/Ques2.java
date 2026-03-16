@@ -1,7 +1,7 @@
 /*Given an unsorted array of positive integers, design an algorithm and implement it using a
 program to find whether there are any duplicate elements in the array or not. (use sorting) (Time
 Complexity = O(n log n)) */
-import java.util.*;
+import java.util.Scanner;
 class Que2{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
