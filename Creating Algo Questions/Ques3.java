@@ -51,6 +51,6 @@ public class Ques3 {
             System.out.println("Comparisons :"+comp);
             System.out.println("Swaps : "+swap);
         }
-        sc.close();;
+        sc.close();
     }
 }
