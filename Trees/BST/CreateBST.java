@@ -1,5 +1,5 @@
-package Trees.BST;
-
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 class Node {
@@ -70,7 +70,14 @@ public class CreateBST {
 
         System.out.print("Inorder traversal of BST: ");
         tree.inorder(tree.root);
+        System.out.println();
 
+        System.out.print("Preorder traversal of BST: ");
+        tree.preorder(tree.root);
+        System.out.println();
+        System.out.print("Postorder traversal of BST: ");
+        tree.postorder(tree.root);
+        System.out.println();
         sc.close();
     }
 }
